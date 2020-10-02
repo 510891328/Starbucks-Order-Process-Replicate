@@ -1,0 +1,68 @@
+#addins_edit_wrapper{
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#addins_edit_content{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff!important;
+    left: 34vw;
+    box-shadow: inset 0 4px 5px -3px rgba(0,0,0,.2), inset 1px 0 2px rgba(0,0,0,.2);
+}
+.addins_edit_content2{
+    width: 70%;
+}
+#addins_edit_form label{
+    display: block;
+}
+#addins_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    padding-top: 22px;
+    word-wrap: break-word;
+    position: absolute;
+}
+#addins_value{
+    font-weight: bold;
+}
+
+button{
+      background: transparent;
+      border: 0;
+      padding: 0;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      border-radius: 0;
+      font-weight:bold;
+    }
+.subtitle{
+      border-bottom: 6px solid rgba(0,0,0,.1);
+    }
+.data{
+      border-bottom: solid 3px rgba(0,0,0,.1);
+    }
+.subdata{
+      border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+.subsubdata{
+      padding-left:1em;
+    }
+.bold{
+      font-weight: bold;
+    }
+      

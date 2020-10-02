@@ -1,0 +1,174 @@
+html{
+	font-family: sans-serif;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+#right_panel{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            background-color:#FAF8F7;
+			overflow: auto;
+}
+.review-board{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 40%;
+            height: 100%;
+            background-color: #3d3935!important; 
+}
+.color-textWhite {
+            color: #fff!important;
+            padding: 350px 0;
+            font-size: 2.3rem;
+            line-height: 1.455;
+            font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-weight: bold;
+}
+
+#review-top{
+	margin-top: 20;
+}
+
+#icon{
+	padding: 5px;
+}
+
+.rtm{
+           color: #fff!important;
+            font-size: 12pt;
+            line-height: 1.5;
+            font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+            font-weight: bold; 
+			padding: 5px;
+}
+
+#items{
+            margin-top: 1.6rem!important;
+            background-color: #fff!important;
+            margin-bottom: 1.6rem!important;
+            box-shadow: 0 0 0.5px 0 rgba(0,0,0,.14), 0 1px 1px 0 rgba(0,0,0,.24);
+            width: 90%;
+            padding: 20px;
+}
+.confirm {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 60%;
+            padding: 125px;
+            background-color: #fff!important;
+}
+
+.hideform {
+         display: none;
+		 width: 66.66%;
+		 
+}
+.cart-payment-close {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+}
+        
+.continuebttn{
+            position: fixed;
+            bottom: 80;
+            right: 30;
+            border: 1px solid green;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            padding: 6px 30px;
+			border-radius: 500px;
+            font-size: 16;
+			box-shadow: 0 0 6px rgba(0,0,0,.24), 0 8px 12px rgba(0,0,0,.14);
+}
+.cart-payment-submit{
+			position: fixed;
+            bottom: 80;
+            right: 30;
+            border: 1px solid green;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            padding: 6px 30px;
+			border-radius: 500px;
+            font-size: 16;
+			box-shadow: 0 0 6px rgba(0,0,0,.24), 0 8px 12px rgba(0,0,0,.14);
+}
+.text-center {
+            text-align: center!important;
+}
+        
+#start_order {
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#empty_text{
+	color: grey;
+	font-size: 10pt;
+}
+
+.sb-button{
+			color: #008248;
+            display: inline-block;
+            background: none;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 50px;
+            padding: 7px 16px;
+            font-size: 1.0rem;
+            font-weight: 600;
+            line-height: 1.2;
+            text-align: center;
+            text-decoration: none;
+}
+
+#add_items a:hover{
+	color: #008248;
+}
+
+#empty{
+	margin-top: 200;
+    margin-left: 250;
+    margin-right: 325;
+}
+
+.deletebttn{
+            font-size:1.0rem;
+            font-weight:bold;
+            margin-top: 1.6rem;
+            margin-left: 5px;
+            color: rgba(0,0,0,.56);
+            background: transparent;
+            background-color:#fff;
+            border:1px solid rgba(0,0,0,.56);    
+            border-radius:50%;
+            width: 30px;
+            height: 30px;
+}
+        
+.addbttn{
+            font-size:1.0rem;
+            font-weight:bold;
+            margin-top: 1.6rem;
+            margin-left: 5px;
+            color: rgba(0,0,0,.56);
+            background: transparent;
+            background-color:#fff;
+            border:1px solid rgba(0,0,0,.56);    
+            border-radius:50%;
+            width: 30px;
+            height: 30px;
+}
+
+.form-group{
+	text-align: center;
+}

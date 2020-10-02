@@ -1,0 +1,238 @@
+html{
+	font-family: sans-serif;
+}
+
+/*header*/
+#topnav a{
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#topnav a:hover{
+	color: green;
+}
+
+#topnav-right a{
+	text-align: center;
+	padding: 14px 10px;
+}
+
+#find_store{
+	border: none;
+	background-color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#sign_in{
+	border: 1px solid black;
+	background-color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+			
+#sign_in:hover{
+	background-color: #FAF8F7 ;;
+}
+
+#join_now{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+			
+#join_now:hover{
+	opacity: 0.7;
+}
+				
+button{
+	border-radius: 15px;
+	padding: 3px 15px;
+}
+
+nav{
+	box-shadow: 0 6px 6px -6px #999;
+}
+
+#all_product{
+	text-decoration: underline;
+}
+
+#menunav a{
+	color: black;
+	text-align: left;
+	padding: 14px 16px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#menu{
+	box-shadow: 0 7px green;
+	
+}
+	
+/*body*/
+
+.nav-pills .nav-link.active{
+	background:transparent;
+	color:gray;
+}
+
+#main{
+	margin-top: -18px;
+}
+
+	.fixed-top{
+	padding:15px 50px;
+	box-shadow: 0 6px 6px -6px #999;
+	}
+	
+	.fixed-top-2 {
+	background-color:#f7f7f7;
+	border-bottom:2px solid light;
+	padding:15px 110px;
+	font-size: 15px;
+	position: fixed;
+	right:5px;
+	top:103px;
+	}
+
+
+	
+	body{
+	padding-top: 150px;
+	background-color:#f7f7f7;
+	} 
+	a{
+	background:transparent;
+	color:gray;
+	}
+	a:hover{
+	color:gray;
+	}
+	button{
+	border-radius: 15px;
+	padding: 3px 15px;
+	background: none;
+	}
+	
+	li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+	#drink div img{
+	vertical-align:middle;	
+	}
+	#drinks div p{
+	font-weight: bold;
+	margin-bottom:40px;
+	padding:40px 0 40px 0;
+	}
+	#v-pills-tab{
+	padding:10px;
+	text-align:left;
+	margin-left:20px;
+	width: 200px;
+	}
+	.bd-sidebar{
+	margin-right:100px;
+	}
+	#drinks h4{
+	margin:20px 0 40px 0;	
+	}
+
+.footer {
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.footer button{
+	background: transparent;
+}
+
+.footer a:hover{
+	text-decoration: none;
+}
+
+.pickup{
+	color: gray;
+	margin-bottom: 0;
+}
+/*footer*/
+
+#aboutus li{
+	padding: 10px;
+	font-size:14px;
+}
+
+#aboutus a{
+	color: grey;
+	text-decoration: none;
+}
+
+#aboutus a:hover{
+	color: black;
+}
+
+#facebook, #pinterest, #instagram, #youtube, #twitter{
+	color:white;
+	font-size: 24px;
+	border-radius: 50%;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	width: 36px;
+	height: 36px;
+	background-color:black;
+}
+
+#spotify{
+	color: black;
+	font-size: 41px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#policy{
+	position: relative;
+	margin-left: 35;
+	font-size: 16px;
+}
+
+#policy a{
+	color: black;
+}
+
+#policy div{
+	text-align: center;
+}
+
+#privacy, #term, #CA{
+	border-right: 1px solid black;
+}
+
+#policy div: last{
+	border: none;
+}
+
+#copyright{
+	padding-top: 10px;
+	color: grey;
+	font-size: 14px;
+	position: absolute;
+	left: 130;
+}
+
+
